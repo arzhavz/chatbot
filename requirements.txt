@@ -1,0 +1,6 @@
+accelerate
+colorama
+rich
+torch
+transformers
+translate

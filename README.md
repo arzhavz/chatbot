@@ -11,5 +11,5 @@
 py -m pip install -r requirements.txt
 ```
 
-    <p>Pastikan untuk memiliki RAM dan CPU yang cukup untuk menjalankan, setelah itu jalankan dengan perintah <code>py -m main.py</code> untuk memulai sesi chatting.</p>
+Pastikan untuk memiliki RAM dan CPU yang cukup untuk menjalankan, setelah itu jalankan dengan perintah <code>py -m main.py</code> untuk memulai sesi chatting.
 </div>

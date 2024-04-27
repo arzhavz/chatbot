@@ -70,7 +70,7 @@ def main():
             os.system("clear")
             break
 
-        out_text, execution_time = generate_response(input_text, tokenizer, model, context = session)
+        out_text, execution_time = generate_response(input_text, tokenizer, model, history = session)
 
         session.append(f"<start_of_turn>user\n{input_text}<end_of_turn>\n<start_of_turn>model\n{out_text.strip()}<end_of_turn>\n")
 
